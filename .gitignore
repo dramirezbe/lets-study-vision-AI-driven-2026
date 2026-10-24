@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Models and heavy artifacts
+*.pt
+*.pth
+*.onnx
+*.onnx.data
+*.engine
+*.tflite
+
+# Data, generated outputs, and local vector stores
+data/
+outputs/
+.lancedb/
+lancedb/
+
+# Agent tooling (local only)
+.atl/
+
+# OS
+.DS_Store
+Thumbs.db
